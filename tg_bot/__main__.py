@@ -20,18 +20,18 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}!
+Hi,Welcome {}, my name is {}!
 
-You can find the list of available commands with /help.
+Use /help to see All my modules.
 """
 
-BOT_IMAGE = "https://telegra.ph/file/d59ff40d6025e1dadcad3.jpg"
+BOT_IMAGE = "https://telegra.ph/file/899bc28c878ed6f878918.jpg"
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
-If you have any questions on how to use me, head over to @gsprobotsupport
+If you have any questions on how to use me, head over to @Ramanam_catbotsupport
 
 *Main* commands available:
  - /start: start the bot
@@ -48,7 +48,7 @@ And the following:
 
 DONATE_STRING = """{0} doesn't currently need any donations.
 However you can donate to the creator of the original source code which {0} \
-is based on:- [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen).""".format(dispatcher.bot.first_name)
+is based on:- [Telegram](https://t.me/Ramanan_Pro_bot), or [Other](https://t.me/gscatoffi).""".format(dispatcher.bot.first_name)
 
 IMPORTED = {}
 MIGRATEABLE = []
